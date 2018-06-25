@@ -23,7 +23,7 @@ function makeGrid(gridHeight , gridWidth , colorPicker , canvas) {
         let tableRows = document.createElement('tr')
         canvas.append(tableRows);
         // now doing the width loop 
-        for(let k = 1; k <= gridWidth ; k++){
+        for(let k = 0; k <= gridWidth ; k++){
             let tableColums = document.createElement('td');
             tableRows.append(tableColums)
         }        
