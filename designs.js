@@ -11,10 +11,10 @@ const sizePicker = $('#sizePicker').submit(function (evt){
     const canvas = $('#pixelCanvas')
     const gridHeight = $('#inputHeight').val()
     const gridWidth = $('#inputWidth').val()
-    console.log(gridHeight)
-    console.log(gridWidth )
-    console.log(colorPicker)
-    console.log(canvas)
+    console.log( "gridHeight:"+gridHeight)
+    console.log("gridWidth:"+gridWidth )
+    console.log("colorPicker:"+colorPicker)
+    console.log("canvas"+canvas)
     makeGrid(gridHeight , gridWidth , colorPicker , canvas);
 })
 
