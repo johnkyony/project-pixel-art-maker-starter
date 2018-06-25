@@ -10,7 +10,7 @@ const sizePicker = $('#sizePicker').submit(function (evt){
     // select the canvas
     const canvas = $('#pixelCanvas')
     const gridHeight = $('#inputHeight').val()
-    const gridWidth = $('#inputWidth').val()
+    const gridWidth = $('#inputWeight').val()
     console.log( "gridHeight:"+gridHeight)
     console.log("gridWidth:"+gridWidth )
     console.log("colorPicker:"+colorPicker)
