@@ -9,7 +9,10 @@ const gridWidth = $('#inputWidth').val()
 // When size is submitted by the user, call makeGrid()
 const sizePicker = $('#sizePicker').submit(function (evt){
     evt.preventDefault(); 
-    console.log(gridHeight , gridWidth , colorPicker , canvas)
+    console.log(gridHeight)
+    console.log(gridWidth )
+    console.log(colorPicker)
+    console.log(canvas)
     makeGrid(gridHeight , gridWidth , colorPicker , canvas);
 })
 
